@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Waktu pembuatan: 03 Jun 2024 pada 09.33
+-- Waktu pembuatan: 03 Jun 2024 pada 12.29
 -- Versi server: 10.4.32-MariaDB
 -- Versi PHP: 8.2.12
 
@@ -37,16 +37,6 @@ CREATE TABLE `biodata` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
--- Dumping data untuk tabel `biodata`
---
-
-INSERT INTO `biodata` (`id`, `nama`, `phone`, `gmail`, `gender`, `gambar`) VALUES
-(1, 'rahmatullah', '2147483647', 'anakhidayatullah212@gmail.com', 'p', ''),
-(2, 'amat', '2147483647', 'hahah@gmail.com', 'l\r\n', ''),
-(16, 'ipul', '085399200200', 'daslkfj@gmail.com', 'p', ''),
-(20, 'ipul', '085399200200', 'daslkfj@gmail.com', 'w', '');
-
---
 -- Indexes for dumped tables
 --
 
@@ -64,7 +54,7 @@ ALTER TABLE `biodata`
 -- AUTO_INCREMENT untuk tabel `biodata`
 --
 ALTER TABLE `biodata`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=0;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
